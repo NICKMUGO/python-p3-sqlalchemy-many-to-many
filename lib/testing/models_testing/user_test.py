@@ -70,7 +70,7 @@ class TestUser:
 
         print(user.games)
         user.games.append(game_1)
-        user.games.append(game_2)
+        user.games.append(game_2)     
         session.add(user)
         session.commit()
 

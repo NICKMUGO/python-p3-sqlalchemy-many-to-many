@@ -33,7 +33,6 @@ if __name__ == '__main__':
             price=random.randint(5, 60)
         )
 
-        # add and commit individually to get IDs back
         session.add(game)
         session.commit()
 
